@@ -134,6 +134,9 @@ class Http
                 case 'CONTENT_LENGTH':
                     $_SERVER['CONTENT_LENGTH'] = $value;
                     break;
+                case 'Connection':
+                    $_SERVER['Connection'] = $value;
+                    break;
             }
         }
 
